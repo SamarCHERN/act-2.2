@@ -1,0 +1,130 @@
+body{
+	display: flex;
+	font-family: arial;
+}
+
+table{
+	border-spacing: 2px;
+}
+
+td{
+	border: 0px solid black;
+	background: inherit;
+	width: 65px;
+	height: 80px;
+}
+.numero{
+	display: block;
+	text-align: center;
+	font-size: 0.6em;
+}
+
+.lettre{
+	display: block;
+	text-align: center;
+	font-weight: bold;
+}
+
+.violet{
+	background-color: purple;
+}
+
+.vertJaune{
+	background-color: greenyellow; 
+}
+
+.vert{
+	background-color: green;
+}
+
+.orang{
+	background-color: orange;
+}
+
+.bleu{
+	background-color: blue;
+}
+
+.jaune{
+	background-color: yellow;
+}
+
+.jauneclaire{
+	background-color: #f0f9c1;
+}
+
+.palegreen{
+	background-color: palegreen;
+}
+
+.rose{
+	background-color: pink;
+}
+
+.rouge{
+	background-color: red;
+}
+
+.table2{
+	margin-left: 135px;
+}
+
+#tables{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+@media screen and (max-width: 1000px){
+	table{
+		border-spacing: 3px;
+		}
+
+	.numero{
+		display: block;
+		text-align: center;
+		font-size: 5px;
+		}
+
+	td{
+		border: 0px solid black;
+		background: inherit;
+		width: 32px;
+		height: 42px;
+	}
+
+	.lettre{
+		font-size: 8px;
+		font-weight: bold;
+
+	}
+
+	.table2{
+		margin-left: 86px;
+		margin-bottom: 22px;
+	}
+
+}
+
+@media screen and (max-width: 600px){
+	table{
+		border-spacing: 1.5px;
+		}
+
+	.numero{
+		display: block;
+		text-align: center;
+		font-size: 2px;
+		}
+
+	td{
+		border: 0px solid black;
+		background: inherit;
+		width: 18px;
+		height: 24px;
+	}
+
+	.table2{
+		margin-left: 47px;
+	}	
+
+}
