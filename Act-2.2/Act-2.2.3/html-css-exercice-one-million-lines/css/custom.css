@@ -167,3 +167,427 @@ footer .button3{
     justify-content: flex-end;  
     align-items: center;
     }
+    @media screen and (max-width: 1199px){
+        #home div{
+            width: 70%;
+        }
+        #who {
+            width:75%;
+        }
+        #get-involved .bloc{
+            width:75%;
+        }
+        footer{
+            padding-left: 15%;
+        }
+        #back-to-top{
+            left: 92%;
+            top: 890px;
+        }
+    }
+
+
+
+    @media screen and (max-width: 1199px){
+
+nav{
+    height: 20px;
+    
+}
+.nav1{
+padding: 10px;
+    
+}
+#home{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.home3{
+    margin: 40px;
+    display: flex;
+    font-size: 15px;
+}
+.home2{
+    font-size: 15px;
+}
+.home1{
+    padding: 10px;
+    font-size: 30px;
+}
+button{
+    padding: 5px;
+    border-radius:4px;
+    font-size: 15px;
+ 
+    /* color: #fff;
+    background-color: #d9534f;
+ */
+}
+
+
+/**********who div**********/
+
+#who{
+    height: 200px;
+   
+    align-self: center;
+}
+#who1{
+    font-size: 15px;
+}
+hr {
+    border-top: 1px solid #e74c3d;
+    width: 160px;
+    margin-top: 15px;
+}
+#who3{
+    font-size: 15px;
+}
+#who4{
+    font-size: 15px; 
+}
+footer{
+    margin:10px;
+    padding: 10px;
+    height: 60px;
+}
+.m{
+    color: red;
+}
+
+#get-involved{
+    height: 500px;
+    /* background-color: #f5f5f5; */
+    display: flex;
+    flex-direction: column;
+    align-items: center
+
+}
+
+.columns{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;  
+
+}
+
+
+
+.item{
+    height: 300px;
+    width: 150px;
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-wrap: nowrap;
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+.item h3{
+    font-family: 'Source Serif Pro', serif;
+    color:  #d9534f;
+    font-size: 20px;
+}
+
+.item p{
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-size: 10px;
+}
+
+.button2{
+    color:  #d9534f;
+    background-color:  aliceblue;
+    border-color: rgb(37, 37, 37);
+    height: 25px;
+    width:70px;
+    border-radius: 0.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 8px;
+    font-weight: bold;
+}
+footer .button3{
+    display: flex;
+    justify-content: flex-end;  
+    align-items: center;
+    }
+    }
+    @media screen and (max-width: 991px){
+
+        nav{
+            height: 20px;
+            
+        }
+        .nav1{
+        padding: 10px;
+            
+        }
+        #home{
+            height: 500px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-content: center;
+            align-items: center;
+        }
+        .home3{
+            margin: 40px;
+            display: flex;
+            font-size: 12px;
+        }
+        .home2{
+            font-size: 15px;
+        }
+        .home1{
+            padding: 10px;
+            font-size: 25px;
+        }
+        button{
+            padding: 5px;
+            border-radius:4px;
+            font-size: 12px;
+         
+            /* color: #fff;
+            background-color: #d9534f;
+         */
+        }
+        
+        
+        /**********who div**********/
+        
+        #who{
+            height: 200px;
+           
+            align-self: center;
+        }
+        #who1{
+            font-size: 12px;
+        }
+        hr {
+            border-top: 1px solid #e74c3d;
+            width: 160px;
+            margin-top: 12px;
+        }
+        #who3{
+            font-size: 12px;
+        }
+        #who4{
+            font-size: 12px; 
+        }
+        footer{
+            margin:10px;
+            padding: 10px;
+            height: 60px;
+        }
+        .m{
+            color: red;
+        }
+        
+        #get-involved{
+            height: 1100px;
+            /* background-color: #f5f5f5; */
+            display: flex;
+            flex-direction: column;
+            align-items: center
+        
+        }
+        
+        .columns{
+            display:flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;  
+        
+        }
+        
+        
+        
+        .item{
+            height: 300px;
+            width: 150px;
+            background-color: #f5f5f5;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            justify-content: space-between;
+            align-content: space-between;
+            flex-wrap: nowrap;
+            margin: 0.5rem;
+            padding: 0.5rem;
+        }
+        .item h3{
+            font-family: 'Source Serif Pro', serif;
+            color:  #d9534f;
+            font-size: 20px;
+        }
+        
+        .item p{
+            font-family: 'Poppins', sans-serif;
+            color: black;
+            font-size: 10px;
+        }
+        
+        .button2{
+            color:  #d9534f;
+            background-color:  aliceblue;
+            border-color: rgb(37, 37, 37);
+            height: 25px;
+            width:70px;
+            border-radius: 0.5rem;
+            font-family: 'Poppins', sans-serif;
+            font-size: 7px;
+            font-weight: bold;
+        }
+        footer .button3{
+            display: flex;
+            justify-content: flex-end;  
+            align-items: center;
+            }
+            }
+        
+    @media screen and (max-width: 676px){
+
+        nav{
+            height: 20px;
+            
+        }
+        .nav1{
+        padding: 10px;
+            
+        }
+        #home{
+            height: 500px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-content: center;
+            align-items: center;
+        }
+        .home3{
+            margin: 40px;
+            display: flex;
+            font-size: 12px;
+        }
+        .home2{
+            font-size: 13px;
+        }
+        .home1{
+            padding: 10px;
+            font-size: 20px;
+        }
+        button{
+            padding: 5px;
+            border-radius:4px;
+            font-size: 12px;
+         
+            /* color: #fff;
+            background-color: #d9534f;
+         */
+        }
+        
+        
+        /**********who div**********/
+        
+        #who{
+            height: 200px;
+           
+            align-self: center;
+        }
+        #who1{
+            font-size: 12px;
+        }
+        hr {
+            border-top: 1px solid #e74c3d;
+            width: 160px;
+            margin-top: 12px;
+        }
+        #who3{
+            font-size: 12px;
+        }
+        #who4{
+            font-size: 12px; 
+        }
+        footer{
+            margin:10px;
+            padding: 10px;
+            height: 60px;
+        }
+        .m{
+            color: red;
+        }
+        
+        #get-involved{
+            height: 1100px;
+            /* background-color: #f5f5f5; */
+            display: flex;
+            flex-direction: column;
+            align-items: center
+        
+        }
+        
+        .columns{
+            display:flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;  
+        
+        }
+        
+        
+        
+        .item{
+            height: 300px;
+            width: 150px;
+            background-color: #f5f5f5;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            justify-content: space-between;
+            align-content: space-between;
+            flex-wrap: nowrap;
+            margin: 0.5rem;
+            padding: 0.5rem;
+        }
+        .item h3{
+            font-family: 'Source Serif Pro', serif;
+            color:  #d9534f;
+            font-size: 20px;
+        }
+        
+        .item p{
+            font-family: 'Poppins', sans-serif;
+            color: black;
+            font-size: 10px;
+        }
+        
+        .button2{
+            color:  #d9534f;
+            background-color:  aliceblue;
+            border-color: rgb(37, 37, 37);
+            height: 25px;
+            width:70px;
+            border-radius: 0.5rem;
+            font-family: 'Poppins', sans-serif;
+            font-size: 7px;
+            font-weight: bold;
+        }
+        footer .button3{
+            display: flex;
+            justify-content: flex-end;  
+            align-items: center;
+            height: 50px;
+            width:50px;
+            }
+            }
+        
